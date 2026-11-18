@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1">
-<meta name="theme-color" content="#0f1115">
+<meta name="theme-color" content="#000000">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -12,6 +12,9 @@
 <link rel="manifest" href="manifest.json">
 <link rel="icon" href="icons/icon-192.png">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Oswald:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -19,10 +22,10 @@
 <div id="activebar" hidden></div>
 <div id="rest" hidden></div>
 <nav class="nav">
-  <button data-a="tab" data-tab="home"><span class="ni">📅</span><span>カレンダー</span></button>
-  <button data-a="tab" data-tab="routines"><span class="ni">📁</span><span>ルーティン</span></button>
-  <button data-a="tab" data-tab="stats"><span class="ni">📈</span><span>統計</span></button>
-  <button data-a="tab" data-tab="settings"><span class="ni">⚙️</span><span>設定</span></button>
+  <button data-a="tab" data-tab="home"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5" width="17" height="15.5" rx="1"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/></svg><span>CALENDAR</span></button>
+  <button data-a="tab" data-tab="routines"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 12h2M19.5 12h2M4.5 8.5v7M19.5 8.5v7M7 6.5v11h2.5v-11zM14.5 6.5v11H17v-11zM9.5 12h5"/></svg><span>ROUTINES</span></button>
+  <button data-a="tab" data-tab="stats"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h16M6.5 20v-6M11 20V9M15.5 20v-8M20 20V5"/></svg><span>STATS</span></button>
+  <button data-a="tab" data-tab="settings"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/></svg><span>SETTINGS</span></button>
 </nav>
 <div id="editor" hidden></div>
 <input type="file" id="imp-file" accept="application/json,.json" hidden>
