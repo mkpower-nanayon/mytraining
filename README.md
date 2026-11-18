@@ -1,5 +1,7 @@
 # MyTraining — 筋トレ記録アプリ（PWA）
 
+公開URL: https://mkpower-nanayon.github.io/mytraining/
+
 BurnFit風のトレーニング記録アプリです。**ルーティンは無制限に保存でき、フォルダ分けできます。**
 
 ## 主な機能
