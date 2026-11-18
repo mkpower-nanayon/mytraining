@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1">
+<meta name="theme-color" content="#0f1115">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="MyTraining">
+<title>MyTraining</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="app"><main id="main"></main></div>
+<div id="activebar" hidden></div>
+<div id="rest" hidden></div>
+<nav class="nav">
+  <button data-a="tab" data-tab="home"><span class="ni">📅</span><span>カレンダー</span></button>
+  <button data-a="tab" data-tab="routines"><span class="ni">📁</span><span>ルーティン</span></button>
+  <button data-a="tab" data-tab="stats"><span class="ni">📈</span><span>統計</span></button>
+  <button data-a="tab" data-tab="settings"><span class="ni">⚙️</span><span>設定</span></button>
+</nav>
+<div id="editor" hidden></div>
+<input type="file" id="imp-file" accept="application/json,.json" hidden>
+<script src="app.js"></script>
+</body>
+</html>
